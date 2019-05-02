@@ -1,0 +1,260 @@
+---
+title: "ESMO BARCELONA"
+author: "BUSINESS TRAVEL CORPORATE"
+date: 'SEPTEMBER 27TH TO OCTOBER 1ST 2019'
+output:
+ 
+  html_document:
+    css: FORMATO.css
+    fig_width: 8
+    fig_height: 8
+    highlight: kate
+    theme: united
+    toc: yes
+    toc_float: yes
+---
+
+<script> 
+    $(document).ready(function() { 
+    $head = $('#header'); 
+    $head.prepend('<A href = https://www.cuttingedge-events.com><img src ="LOGO.png" width="150" align="right"></A>') 
+    }); 
+</script> 
+
+
+```{r echo=FALSE, message=FALSE,warning=FALSE}
+library(readxl)
+library(shiny)
+library(dplyr)
+library(knitr)
+```
+
+
+## **RESTAURANTS OFFERED** {.tabset .tabset-fade .tabset-pills}
+
+### **BOTAFUMEIRO**
+**Location** Gracia Quarter 
+**Cuisine** Fish and Shelfish 
+**Capacity** 80 pax with private small dining rooms 
+
+For nearly four decades, Botafumeiro has been one of the seafood restaurants of Barcelona par excellence. Located on Gran de Gràcia since its founding in 1975, this classic restaurant has attracted prominent personalities and most exclusive Barcelona public with a culinary offer of impeccable quality.
+
+Sourced from the best freshly fished seafood auctioned at the fish market, Botafumeiro’s menu always guarantees a superb dining experience with all the flavour of the Cantabrian and Mediterranean seas. 
+
+In a classic style setting decorated with sobriety and wood, a formal old-fashioned service with attention to details hosts guests in order to make any meal a real luxury. The space has several rooms and a busy majestic bar where we can also sit to eat.
+
+**SAMPLE MENU**
+
+**Appetizer**
+Iberian cured ham shavings  ̈Gran Reserve ̈
+Special thin bread with spread tomato and pure olive oil
+Smoked salmon bonbon stuffed with vegetables
+Cantabrian seafood salad
+Shrimps in garlic sauce
+Deep fried calamari Andalusia ́style
+Clams fisherman ́s style
+
+**Main course to choose**
+Baked fish market with potato and caramelized spring onion
+or
+Grilled beef sirloin O.D. Rubia Gallegawith foie sauce
+
+**Dessert**
+Black chocolate coulant with vanilla ice cream
+Biscuits tiles and Botafumeiro bonbons
+Coffee and tea selection
+
+**Cellar**
+Albariño white wine O.D. Rías Baixas
+Rioja red wine O.D. Rioja
+Mineral waters
+
+**Rate per person from €110**
+
+<img src = "https://media.timeout.com/images/101532253/630/472/image.jpg" width="320"> <img src = "http://www.buscorestaurantes.com/files/images/Botafumeiro-17.jpg" width="380" align="right">
+
+
+
+### **ARROS I PEIX**
+**Location** City centre 
+**Cuisine** Paella and fresh fish 
+**Capacity** 60 pax 
+
+**Arròs i Peix** is an innovative restaurant. They have their own striking in-house fish market, which beckons those in search of a unique dining experience, and the highest quality of fresh ingredients. They have an extensive menu and a variety of dishes, whilst relaxing and enjoying a glass of our finest Cava.
+They aim to exceed our customers’ expectations, taking care of every detail and offer the best quality products available.
+
+Their fish and seafood, along with all the ingredients, are always fresh. They use high quality products and make sure their customers receive the best service.
+
+The kitchen is the heart of the restaurant. Utilising a wealth of experience, their chefs take great care to prepare each individual dish with wisdom and respect for the produce.
+
+They have an extensive wine collection with designation of origin and excellent Cavas that will be perfect to accompany your meal. To end your dining experience there is nothing better than to enjoy one of their desserts and give a sweet touch to your meal.
+
+**SAMPLE MENU**
+
+**Starters to share**
+Salad with goat cheese, nuts and mustard vinaigrette Salmon Tartar
+Andalusian style fried squid with lime mayonnaise Bay Scallops
+Grilled razorshell with garlic and parsley
+
+**Main course to choose**
+Paella "Arròs i Peix"
+or
+Fideua (Noodle paella)
+or
+Grilled hake with garlic and parsley sauce & sauteed vegetables
+
+**Dessert**
+Tiramisu
+
+**Drinks** 
+wine, soft drink or water
+
+**Rate per person from €44**
+
+<img src = "https://u.tfstatic.com/restaurant_photos/899/324899/169/612/arros-i-peix-barcelona-arros-i-peix-barcelona-1-2d72d.jpg" width="360"> <img src = "http://arrosipeix.cat/wp-content/uploads/2015/06/GiFOTO.jpg" width="360" align="right">
+
+
+
+
+### **LA GAVINA**
+**Location** Port Vell 
+**Cuisine** Paella, Rice dishes, Mediterranean, Fish, Seafood 
+**Capacity** Big terrace 200 pax; Small terrce 80 pax. Private indoor rooms of 35 and 80 pax 
+
+Founded two decades ago, **La Gavina** is undoubtedly one of the most popular restaurants located in the _Palau de Mar building_ and offers the best views to Barcelona’s Port Vell.
+
+Its large terrace is its most valuable asset, but the space also has another charming terrace under the arcades of the building and two spacious and refurbished interior dining rooms that have been fully equipped. **La Gavina** offers excellent seafood and Mediterranean cuisine in a privileged setting.
+
+**TAPAS SAMPLE MENU**
+Cold:
+Flat bread with tomato 
+Assorted cheeses 
+Two salmon tartare with old-fashioned mustard and lemon cream 
+Oregano, tomato and bufala mozzarella salad  
+Tuna tataki with sweet tomato and onion 
+
+
+Hot:
+Seafood and fish croquettes 
+Batter-fried squid rings  
+Galician cod and raisin pie 
+Quail lollipops with barbecue sauce
+Mango and salmon skewer with basil
+Charcoal-grilled diced Catalan sausage with mushrooms
+Chicken skewer with Teiyaki sauce
+
+Assorted mini pastries 
+
+Coffee, decaffeinated coffee, herbs 
+
+Cellar: 
+White, rose or red recommended wine
+Mineral waters
+
+**Rate per person from €47,50**
+
+
+
+<img src = "https://u.tfstatic.com/restaurant_photos/930/63930/169/612/la-gavina-vista-sala-bb726.jpg" width="360"> <img src = "https://cdn.atrapalo.com/common/photo/res/557/0/ticr_890_370.jpg" width="360" align="right">
+
+
+
+### **LA LUNA**
+**Location** Born quarter
+**Cuisine** Paella, Rice dishes, Mediterranean, Fish, Seafood 
+**Capacity** Big terrace 200 pax; Small terrce 80 pax. Private indoor rooms of 35 and 80 pax 
+
+“Housed in Barcelonas cool Borne district, La luna is a chic and elegant place to kick off your evening. The interior is high ceilinged and grand and the bar and restaurant are atmospherically lit, the bar boasts sleek metal furnishings, acres of smart, dark wood and numerous comfy leather armchairs in which to lounge with a drink 
+
+
+**SAMPLE MENU**
+
+**5 starters to choose to be shared**
+Fried spicy potatoes (Patatas Bravas)
+Honey and Mustard chiken wings 
+Mexican chiken quesadillas 
+Greek salad with Tzatziki sauce 
+Eggplant hummus with sunfloer seed pita bred 
+Goat cheese salad with pistachio and tomato marmalade 
+Nachos with Cheddar cheese, guacamole and pico de gallo 
+Beef fajitas with cheese in a meat gravy sauce 
+Indian chicken curry 
+
+**Main course **
+Fillet Mignon in a pepper sauce with potato gratin 
+or 
+Tuna tataki served with soy and vegetables 
+or 
+Mushroom risotto with parmensan cheese 
+
+**Dessert** 
+Chocolate brownie with walnuts and almonds, served with vanilla ice-cream 
+or 
+Cheesecake with strawberry ice-cream and raspberry syrup 
+
+**To Drink**
+One bottle of red or white wine every 4 people 
+One bottle of water every 2 persons 
+Tea or coffee 
+
+**Rate per person from €37,50**
+
+<img src = "http://www.lalunabcn.com/img/hero2.jpg" width="360"> <img src = "http://www.lalunabcn.com/img/hero3.jpg" width="360" align="right">
+
+
+
+
+## **Map**
+
+```{r echo=FALSE, warning=FALSE, message=FALSE}
+
+library(leaflet)
+library(stringr)
+library(ggmap)
+library(readxl)
+library(dplyr)
+library(leaflet.extras)
+library(shiny)
+
+coordinates <- read_excel("timeline.xlsx", 
+    sheet = "Sheet3", col_types = c("text", 
+        "text", "numeric", "numeric", "text", 
+        "text"))
+
+coordinates$Category <- factor(coordinates$Category)
+
+m <- coordinates %>% 
+  leaflet(options = leafletOptions(dragging = TRUE,
+  minZoom = 14, maxZoom = 18)) %>% 
+  addProviderTiles("Esri") %>% 
+  setView(lng = 2.1687300, lat = 41.3863900, zoom = 14) 
+
+pal <- colorFactor(palette = c("red","blue"),
+      levels = coordinates$Category)
+
+m %>% clearBounds() %>% 
+  addCircleMarkers(radius = 5, color = ~pal(Category)) %>% 
+  addPopups(popup = paste0("<b>",coordinates$Location,"</b>")) %>% 
+  addLegend(position = "bottomright", pal = pal, 
+  values = coordinates$Category) %>% addResetMapButton()
+
+```
+
+
+## Terms & Conditions
+
+  *Rates valid for 2019.
+  
+  *Net rates for Business travel Corporate 
+  
+  *For a group of minimum 14 pax and special rates for ESMO Congress 
+  
+  *Cutting Edge Events management fee including in the detailed rates
+  
+  *VAT included. 
+  
+  *No reservation has been done. Availability upon request.
+  
+*****
+
+

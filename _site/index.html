@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+
+
+<meta name="author" content="BUSINESS TRAVEL CORPORATE" />
+
+
+<title>ESMO BARCELONA</title>
+
+<script src="site_libs/jquery-1.12.4/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/united.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<script src="site_libs/htmlwidgets-1.3/htmlwidgets.js"></script>
+<link href="site_libs/leaflet-1.3.1/leaflet.css" rel="stylesheet" />
+<script src="site_libs/leaflet-1.3.1/leaflet.js"></script>
+<link href="site_libs/leafletfix-1.0.0/leafletfix.css" rel="stylesheet" />
+<script src="site_libs/Proj4Leaflet-1.0.1/proj4-compressed.js"></script>
+<script src="site_libs/Proj4Leaflet-1.0.1/proj4leaflet.js"></script>
+<link href="site_libs/rstudio_leaflet-1.3.1/rstudio_leaflet.css" rel="stylesheet" />
+<script src="site_libs/leaflet-binding-2.0.2/leaflet.js"></script>
+<script src="site_libs/leaflet-providers-1.1.17/leaflet-providers.js"></script>
+<script src="site_libs/leaflet-providers-plugin-2.0.2/leaflet-providers-plugin.js"></script>
+<link href="site_libs/leaflet-easybutton-1.3.1/easy-button.css" rel="stylesheet" />
+<script src="site_libs/leaflet-easybutton-1.3.1/easy-button.js"></script>
+<script src="site_libs/leaflet-easybutton-1.3.1/EasyButton-binding.js"></script>
+<link href="site_libs/ionicons-2.0.1/ionicons.min.css" rel="stylesheet" />
+
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+<link rel="stylesheet" href="FORMATO.css" type="text/css" />
+
+</head>
+
+<body>
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 51px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h2 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h3 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h4 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h5 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h6 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+<div class="container-fluid main-container">
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+  padding-left: 25px;
+  text-indent: 0;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row-fluid">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">CE Events</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Quotation</a>
+</li>
+<li>
+  <a href="about.html">Credentials</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">ESMO BARCELONA</h1>
+<h4 class="author"><em>BUSINESS TRAVEL CORPORATE</em></h4>
+<h4 class="date"><em>SEPTEMBER 27TH TO OCTOBER 1ST 2019</em></h4>
+
+</div>
+
+
+<script> 
+    $(document).ready(function() { 
+    $head = $('#header'); 
+    $head.prepend('<A href = https://www.cuttingedge-events.com><img src ="LOGO.png" width="150" align="right"></A>') 
+    }); 
+</script>
+<div id="restaurants-offered" class="section level2 tabset tabset-fade tabset-pills">
+<h2><strong>RESTAURANTS OFFERED</strong></h2>
+<div id="botafumeiro" class="section level3">
+<h3><strong>BOTAFUMEIRO</strong></h3>
+<p><strong>Location</strong> Gracia Quarter <strong>Cuisine</strong> Fish and Shelfish <strong>Capacity</strong> 80 pax with private small dining rooms</p>
+<p>For nearly four decades, Botafumeiro has been one of the seafood restaurants of Barcelona par excellence. Located on Gran de Gràcia since its founding in 1975, this classic restaurant has attracted prominent personalities and most exclusive Barcelona public with a culinary offer of impeccable quality.</p>
+<p>Sourced from the best freshly fished seafood auctioned at the fish market, Botafumeiro’s menu always guarantees a superb dining experience with all the flavour of the Cantabrian and Mediterranean seas.</p>
+<p>In a classic style setting decorated with sobriety and wood, a formal old-fashioned service with attention to details hosts guests in order to make any meal a real luxury. The space has several rooms and a busy majestic bar where we can also sit to eat.</p>
+<p><strong>SAMPLE MENU</strong></p>
+<p><strong>Appetizer</strong> Iberian cured ham shavings ̈Gran Reserve ̈ Special thin bread with spread tomato and pure olive oil Smoked salmon bonbon stuffed with vegetables Cantabrian seafood salad Shrimps in garlic sauce Deep fried calamari Andalusia ́style Clams fisherman ́s style</p>
+<p><strong>Main course to choose</strong> Baked fish market with potato and caramelized spring onion or Grilled beef sirloin O.D. Rubia Gallegawith foie sauce</p>
+<p><strong>Dessert</strong> Black chocolate coulant with vanilla ice cream Biscuits tiles and Botafumeiro bonbons Coffee and tea selection</p>
+<p><strong>Cellar</strong> Albariño white wine O.D. Rías Baixas Rioja red wine O.D. Rioja Mineral waters</p>
+<p><strong>Rate per person from €110</strong></p>
+<p><img src = "https://media.timeout.com/images/101532253/630/472/image.jpg" width="320"> <img src = "http://www.buscorestaurantes.com/files/images/Botafumeiro-17.jpg" width="380" align="right"></p>
+</div>
+<div id="arros-i-peix" class="section level3">
+<h3><strong>ARROS I PEIX</strong></h3>
+<p><strong>Location</strong> City centre <strong>Cuisine</strong> Paella and fresh fish <strong>Capacity</strong> 60 pax</p>
+<p><strong>Arròs i Peix</strong> is an innovative restaurant. They have their own striking in-house fish market, which beckons those in search of a unique dining experience, and the highest quality of fresh ingredients. They have an extensive menu and a variety of dishes, whilst relaxing and enjoying a glass of our finest Cava. They aim to exceed our customers’ expectations, taking care of every detail and offer the best quality products available.</p>
+<p>Their fish and seafood, along with all the ingredients, are always fresh. They use high quality products and make sure their customers receive the best service.</p>
+<p>The kitchen is the heart of the restaurant. Utilising a wealth of experience, their chefs take great care to prepare each individual dish with wisdom and respect for the produce.</p>
+<p>They have an extensive wine collection with designation of origin and excellent Cavas that will be perfect to accompany your meal. To end your dining experience there is nothing better than to enjoy one of their desserts and give a sweet touch to your meal.</p>
+<p><strong>SAMPLE MENU</strong></p>
+<p><strong>Starters to share</strong> Salad with goat cheese, nuts and mustard vinaigrette Salmon Tartar Andalusian style fried squid with lime mayonnaise Bay Scallops Grilled razorshell with garlic and parsley</p>
+<p><strong>Main course to choose</strong> Paella “Arròs i Peix” or Fideua (Noodle paella) or Grilled hake with garlic and parsley sauce &amp; sauteed vegetables</p>
+<p><strong>Dessert</strong> Tiramisu</p>
+<p><strong>Drinks</strong> wine, soft drink or water</p>
+<p><strong>Rate per person from €44</strong></p>
+<p><img src = "https://u.tfstatic.com/restaurant_photos/899/324899/169/612/arros-i-peix-barcelona-arros-i-peix-barcelona-1-2d72d.jpg" width="360"> <img src = "http://arrosipeix.cat/wp-content/uploads/2015/06/GiFOTO.jpg" width="360" align="right"></p>
+</div>
+<div id="la-gavina" class="section level3">
+<h3><strong>LA GAVINA</strong></h3>
+<p><strong>Location</strong> Port Vell <strong>Cuisine</strong> Paella, Rice dishes, Mediterranean, Fish, Seafood <strong>Capacity</strong> Big terrace 200 pax; Small terrce 80 pax. Private indoor rooms of 35 and 80 pax</p>
+<p>Founded two decades ago, <strong>La Gavina</strong> is undoubtedly one of the most popular restaurants located in the <em>Palau de Mar building</em> and offers the best views to Barcelona’s Port Vell.</p>
+<p>Its large terrace is its most valuable asset, but the space also has another charming terrace under the arcades of the building and two spacious and refurbished interior dining rooms that have been fully equipped. <strong>La Gavina</strong> offers excellent seafood and Mediterranean cuisine in a privileged setting.</p>
+<p><strong>TAPAS SAMPLE MENU</strong> Cold: Flat bread with tomato Assorted cheeses Two salmon tartare with old-fashioned mustard and lemon cream Oregano, tomato and bufala mozzarella salad<br />
+Tuna tataki with sweet tomato and onion</p>
+<p>Hot: Seafood and fish croquettes Batter-fried squid rings<br />
+Galician cod and raisin pie Quail lollipops with barbecue sauce Mango and salmon skewer with basil Charcoal-grilled diced Catalan sausage with mushrooms Chicken skewer with Teiyaki sauce</p>
+<p>Assorted mini pastries</p>
+<p>Coffee, decaffeinated coffee, herbs</p>
+<p>Cellar: White, rose or red recommended wine Mineral waters</p>
+<p><strong>Rate per person from €47,50</strong></p>
+<p><img src = "https://u.tfstatic.com/restaurant_photos/930/63930/169/612/la-gavina-vista-sala-bb726.jpg" width="360"> <img src = "https://cdn.atrapalo.com/common/photo/res/557/0/ticr_890_370.jpg" width="360" align="right"></p>
+</div>
+<div id="la-luna" class="section level3">
+<h3><strong>LA LUNA</strong></h3>
+<p><strong>Location</strong> Born quarter <strong>Cuisine</strong> Paella, Rice dishes, Mediterranean, Fish, Seafood <strong>Capacity</strong> Big terrace 200 pax; Small terrce 80 pax. Private indoor rooms of 35 and 80 pax</p>
+<p>“Housed in Barcelonas cool Borne district, La luna is a chic and elegant place to kick off your evening. The interior is high ceilinged and grand and the bar and restaurant are atmospherically lit, the bar boasts sleek metal furnishings, acres of smart, dark wood and numerous comfy leather armchairs in which to lounge with a drink</p>
+<p><strong>SAMPLE MENU</strong></p>
+<p><strong>5 starters to choose to be shared</strong> Fried spicy potatoes (Patatas Bravas) Honey and Mustard chiken wings Mexican chiken quesadillas Greek salad with Tzatziki sauce Eggplant hummus with sunfloer seed pita bred Goat cheese salad with pistachio and tomato marmalade Nachos with Cheddar cheese, guacamole and pico de gallo Beef fajitas with cheese in a meat gravy sauce Indian chicken curry</p>
+<p><strong>Main course </strong> Fillet Mignon in a pepper sauce with potato gratin or Tuna tataki served with soy and vegetables or Mushroom risotto with parmensan cheese</p>
+<p><strong>Dessert</strong> Chocolate brownie with walnuts and almonds, served with vanilla ice-cream or Cheesecake with strawberry ice-cream and raspberry syrup</p>
+<p><strong>To Drink</strong> One bottle of red or white wine every 4 people One bottle of water every 2 persons Tea or coffee</p>
+<p><strong>Rate per person from €37,50</strong></p>
+<p><img src = "http://www.lalunabcn.com/img/hero2.jpg" width="360"> <img src = "http://www.lalunabcn.com/img/hero3.jpg" width="360" align="right"></p>
+</div>
+</div>
+<div id="map" class="section level2">
+<h2><strong>Map</strong></h2>
+<div id="htmlwidget-e0483f3bfd64da2d8592" style="width:768px;height:768px;" class="leaflet html-widget"></div>
+<script type="application/json" data-for="htmlwidget-e0483f3bfd64da2d8592">{"x":{"options":{"minZoom":14,"maxZoom":18,"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}},"dragging":true},"calls":[{"method":"addProviderTiles","args":["Esri",null,null,{"errorTileUrl":"","noWrap":false,"detectRetina":false}]},{"method":"addCircleMarkers","args":[[41.3843154,41.4003766,41.3830627,41.3832968,41.3805405],[2.1784312,2.1547043,2.1796795,2.1814661,2.1855685],5,null,null,{"interactive":true,"className":"","stroke":true,"color":["#FF0000","#0000FF","#0000FF","#0000FF","#0000FF"],"weight":5,"opacity":0.5,"fill":true,"fillColor":["#FF0000","#0000FF","#0000FF","#0000FF","#0000FF"],"fillOpacity":0.2},null,null,null,null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]},{"method":"addPopups","args":[[41.3843154,41.4003766,41.3830627,41.3832968,41.3805405],[2.1784312,2.1547043,2.1796795,2.1814661,2.1855685],["<b>H10 MONTCADA<\/b>","<b>Botafumeiro<\/b>","<b>Arros i peix<\/b>","<b>La Luna<\/b>","<b>La Gavina<\/b>"],null,null,{"maxWidth":300,"minWidth":50,"autoPan":true,"keepInView":false,"closeButton":true,"className":""}]},{"method":"addLegend","args":[{"colors":["#FF0000","#0000FF"],"labels":["Accom","Rest"],"na_color":null,"na_label":"NA","opacity":0.5,"position":"bottomright","type":"factor","title":null,"extra":null,"layerId":null,"className":"info legend","group":null}]},{"method":"addEasyButton","args":[{"icon":"ion-arrow-shrink","title":"Reset View","onClick":"function(btn, map){ map.setView(map._initialCenter, map._initialZoom); }","position":"topleft"}]}],"limits":{"lat":[41.3805405,41.4003766],"lng":[2.1547043,2.1855685]}},"evals":["calls.4.args.0.onClick"],"jsHooks":{"render":[{"code":"function(el, x, data) {\n  return (function(el, x){ var map = this; map._initialCenter = map.getCenter(); map._initialZoom = map.getZoom();}).call(this.getMap(), el, x, data);\n}","data":null}]}}</script>
+</div>
+<div id="terms-conditions" class="section level2">
+<h2>Terms &amp; Conditions</h2>
+<p>*Rates valid for 2019.</p>
+<p>*Net rates for Business travel Corporate</p>
+<p>*For a group of minimum 14 pax and special rates for ESMO Congress</p>
+<p>*Cutting Edge Events management fee including in the detailed rates</p>
+<p>*VAT included.</p>
+<p>*No reservation has been done. Availability upon request.</p>
+<hr />
+</div>
+
+
+
+</div>
+</div>
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
